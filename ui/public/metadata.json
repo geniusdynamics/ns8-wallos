@@ -1,19 +1,19 @@
 {
-  "name": "kickstart",
+  "name": "wallos",
   "description": {
-    "en": "My kickstart module"
+    "en": "My wallos module"
   },
   "categories": [],
   "authors": [
     {
-      "name": "Name Surname",
-      "email": "author@yourmail.org"
+      "name": "Martin Bhuong",
+      "email": "martin@genius.ke"
     }
   ],
   "docs": {
-    "documentation_url": "https://docs.kickstart.com/",
-    "bug_url": "https://github.com/NethServer/dev",
-    "code_url": "https://github.com/author/ns8-kickstart"
+    "documentation_url": "https://wallosapp.com/",
+    "bug_url": "https://github.com/geniusdynamic/dev",
+    "code_url": "https://github.com/author/ns8-wallos"
   },
-  "source": "ghcr.io/nethserver/kickstart"
+  "source": "ghcr.io/geniusdynamics/wallos"
 }
