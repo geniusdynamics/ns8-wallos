@@ -21,8 +21,8 @@ ExecStartPre=-runagent discover-smarthost
 ExecStart=/usr/bin/podman run --conmon-pidfile %t/wallos-app.pid \
     --cidfile %t/wallos-app.ctr-id --cgroups=no-conmon \
     --pod-id-file %t/wallos.pod-id --replace -d --name  wallos-app \
-    --volume db:/var/www/html/d \
-    --volume logos:/var/www/html/images/uploads/logos \
+    --volume db:/var/www/html/db:Z \
+    --volume logos:/var/www/html/images/uploads/logos:Z \
     --env=WALLOS_* \
     --env TZ=Africa/Nairobi \
     ${WALLOS_IMAGE}
