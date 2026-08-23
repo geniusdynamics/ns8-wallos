@@ -14,7 +14,7 @@ images=()
 repobase="${REPOBASE:-ghcr.io/geniusdynamics}"
 # Configure the image name
 reponame="wallos"
-APP_VERSION="4.8.4"
+APP_VERSION="5.4.5"
 
 # Create a new empty container image
 container=$(buildah from scratch)
