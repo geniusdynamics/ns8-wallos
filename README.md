@@ -48,6 +48,12 @@ You can retrieve the configuration with
 api-cli run get-configuration --agent module/wallos1
 ```
 
+## Update 
+
+```bash 
+api-cli run update-module --data '{"module_url":"ghcr.io/geniusdynamics/wallos:latest","instances":["wallos1"]}'
+```
+
 ## Uninstall
 
 To uninstall the instance:
