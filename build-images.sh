@@ -18,7 +18,7 @@ reponame="wallos"
 # renovate: datasource=npm packageName=corepack
 corepack_version=0.36.0
 # renovate: datasource=docker packageName=docker.io/bellamy/wallos
-APP_VERSION=5.10.0
+APP_VERSION=5.10.1
 
 # Create a new empty container image
 container=$(buildah from scratch)
