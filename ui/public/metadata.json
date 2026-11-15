@@ -1,9 +1,12 @@
 {
   "name": "wallos",
   "description": {
-    "en": "My wallos module"
+    "en": "Wallos is a self-hosted tracker for recurring subscriptions that shows costs, renewal dates and spending by category.",
+    "it": "Wallos è un tracker self-hosted degli abbonamenti ricorrenti che mostra costi, scadenze e spese per categoria."
   },
-  "categories": [],
+  "categories": [
+    "office"
+  ],
   "authors": [
     {
       "name": "Martin Bhuong",
